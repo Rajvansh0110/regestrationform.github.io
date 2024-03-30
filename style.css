@@ -1,0 +1,77 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+.whole
+{
+    background-image: url(bg.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 172vw 100vh;
+    width: auto;
+    height: 100vh;
+}
+.containor
+{
+    text-align: -webkit-center;
+    display: flex;
+    justify-content: center;
+}
+.regiform
+{
+    background-color: rgba(255, 255, 255, 0.297);
+    border-radius: 15px;
+    box-shadow: 10px 10px lightblue;
+    margin-top: 13vh;
+    width: fit-content;
+    height: fit-content;
+}
+.regiform h1
+{
+    padding: 12px 10px 10px;
+    text-align: center;
+    font-size: 40px;
+
+}
+.form-group label
+{
+    font-size: 27px;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.form-group input
+{
+    width: 30vw;
+    height: 3vh;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+.form-group textarea
+{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+#buttons
+{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgba(128, 128, 128, 0.712);
+    background-color: lightblue;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 22px 3px;
+    cursor: pointer;
+}
+#buttons:hover
+{
+    color: rgb(46, 154, 211);
+    background-color: white;
+}
